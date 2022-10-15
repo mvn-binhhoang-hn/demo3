@@ -1,0 +1,24 @@
+{
+  "data": {
+    "c02": [
+      {
+        "id": "xxx",
+        "label": "xxx"
+      },
+      {
+        "id": "yyy",
+        "label": "yyy"
+      }
+    ],
+    "c90": [
+      {
+        "id": "zzzz",
+        "label": "zzzz"
+      },
+      {
+        "id": "zzzz",
+        "label": "zzzz"
+      }
+    ]
+  }
+}
