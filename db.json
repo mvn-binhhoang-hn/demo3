@@ -54,5 +54,41 @@
             "effective_dt_from": "2022-11-01T14:00:00Z",
             "effective_dt_to": "2022-12-31T14:00:00Z"
         }
+    ],
+    "10005": [
+        {
+            "service_nm": "amobile-maintain",
+            "priority":"5",
+            "sbflg": "1",
+            "url": "http://www.example.com",
+            "ineffective_dt_from(メンテナンス開始日時)":"2022-11-01T14:00:00Z",
+            "ineffective_dt_to(メンテナンス終了日時)":"2022-11-20T14:00:00Z"
+        },
+        {
+            "service_nm": "amobile-maintain",
+            "priority":"5",
+            "sbflg": "1",
+            "url": "http://www.example.com",
+            "ineffective_dt_from":"2022-12-01T14:00:00Z",
+            "ineffective_dt_to":"2022-12-02T14:00:00Z"
+        }
+    ],
+    "10006": [
+        {
+            "service_nm": "dmobile-maintain",
+            "priority":"5",
+            "sbflg": "0",
+            "url": "http://www.example.com",
+            "ineffective_dt_from(メンテナンス開始日時)":"2022-11-01T14:00:00Z",
+            "ineffective_dt_to(メンテナンス終了日時)":"2022-11-20T14:00:00Z"
+        },
+        {
+            "service_nm": "dmobile-maintain",
+            "priority":"5",
+            "sbflg": "0",
+            "url": "http://www.example.com",
+            "ineffective_dt_from":"2022-12-01T14:00:00Z",
+            "ineffective_dt_to":"2022-12-02T14:00:00Z"
+        }
     ]
 }
