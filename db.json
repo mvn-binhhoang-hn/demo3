@@ -1,94 +1,34 @@
 {
-    "10001(移転元サービスコード)": [
-        {
-            "service_nm(プルダウン表示用サービス名)": "docomo",
-            "priority(プルダウン表示順番号)":"1",
-            "sbflg(SB回線フラグ)": "0",
-            "url(URL)": "http://www.example.com",
-            "effective_dt_from(有効開始日)": "2022-11-01T14:00:00Z",
-            "effective_dt_to(有効終了日)": "2022-11-30T14:00:00Z"
-        },
-        {
-            "service_nm": "docomo",
-            "priority":"1",
-            "sbflg": "0",
-            "url": "http://www.example.com",
-            "effective_dt_from": "2022-12-01T14:00:00Z",
-            "effective_dt_to": "2022-12-31T14:00:00Z"
-        }
+  "c02": [
+      {
+        "id": "docomo",
+        "label": "docomo"
+      },
+      {
+        "id": "au",
+        "label": "au"
+      },
+      {
+        "id": "povo",
+        "label": "povo"
+      },
+      {
+        "id": "uqmobile",
+        "label": "uqmobile"
+      }
     ],
-    "10002": [
-        {
-            "service_nm": "au",
-            "priority":"2",
-            "sbflg": "0",
-            "url": "http://www.example.com",
-            "effective_dt_from": "2022-11-01T14:00:00Z",
-            "effective_dt_to": "2022-12-31T14:00:00Z"
-        }
-    ],
-    "10003": [
-        {
-            "service_nm": "LINEモバイル",
-            "priority":"3",
-            "sbflg": "1",
-            "url": "http://www.A.example.com",
-            "effective_dt_from": "2022-11-01T14:00:00Z",
-            "effective_dt_to": "2022-12-15T14:00:00Z"
-        },
-        {
-            "service_nm": "LINEモバイル",
-            "priority":"3",
-            "sbflg": "1",
-            "url": "http://www.B.example.com",
-            "effective_dt_from": "2022-12-15T14:00:00Z",
-            "effective_dt_to": "2022-12-31T14:00:00Z"
-        }
-    ],
-    "10004": [
-        {
-            "service_nm": "bmobile",
-            "priority":"4",
-            "sbflg": "1",
-            "url": "http://www.example.com",
-            "effective_dt_from": "2022-11-01T14:00:00Z",
-            "effective_dt_to": "2022-12-31T14:00:00Z"
-        }
-    ],
-    "10005": [
-        {
-            "service_nm": "amobile-maintain",
-            "priority":"5",
-            "sbflg": "1",
-            "url": "http://www.example.com",
-            "ineffective_dt_from(メンテナンス開始日時)":"2022-11-01T14:00:00Z",
-            "ineffective_dt_to(メンテナンス終了日時)":"2022-11-20T14:00:00Z"
-        },
-        {
-            "service_nm": "amobile-maintain",
-            "priority":"5",
-            "sbflg": "1",
-            "url": "http://www.example.com",
-            "ineffective_dt_from":"2022-12-01T14:00:00Z",
-            "ineffective_dt_to":"2022-12-02T14:00:00Z"
-        }
-    ],
-    "10006": [
-        {
-            "service_nm": "dmobile-maintain",
-            "priority":"5",
-            "sbflg": "0",
-            "url": "http://www.example.com",
-            "ineffective_dt_from(メンテナンス開始日時)":"2022-11-01T14:00:00Z",
-            "ineffective_dt_to(メンテナンス終了日時)":"2022-11-20T14:00:00Z"
-        },
-        {
-            "service_nm": "dmobile-maintain",
-            "priority":"5",
-            "sbflg": "0",
-            "url": "http://www.example.com",
-            "ineffective_dt_from":"2022-12-01T14:00:00Z",
-            "ineffective_dt_to":"2022-12-02T14:00:00Z"
-        }
+    "c90": [
+      {
+        "id": "LINEモバイル",
+        "label": "LINEモバイル"
+      },
+      {
+        "id": "bmobile",
+        "label": "bmobile"
+      },
+      {
+        "id": "uqmobile",
+        "label": "uqmobile"
+      }
     ]
 }
